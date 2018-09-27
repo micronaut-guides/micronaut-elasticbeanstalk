@@ -9,7 +9,7 @@ $ du -h build/libs/complete-0.1-all.jar
 
 The next screenshots illustrate the steps necessary to deploy an micronaut app to AWS Elastic Beanstalk:
 
- image::elasticbeanstalk1.png[]
+image::elasticbeanstalk1.png[]
 
 image::elasticbeanstalk2.png[]
 
