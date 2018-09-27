@@ -38,6 +38,7 @@ image::elasticbeanstalk6.png[]
 image::elasticbeanstalk7.png[]
 
 Now you are ready to click **Create Environment**.
+
 image::elasticbeanstalk8.png[]
 
 After a few minutes you will be able to access the `/health` endpoint.
