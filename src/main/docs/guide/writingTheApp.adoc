@@ -12,7 +12,7 @@ Add the `management` dependency:
 [source,groovy]
 .build.gradle
 ----
-include::{sourceDir}/build.gradle[tag=management]
+include::{sourceDir}/build.gradle[tag=management,indent=0]
 ----
 
 Once you include the `management` dependency a `/health` endpoint is exposed.
@@ -24,7 +24,6 @@ Create a test which verifies it:
 ----
 include::{sourceDir}/src/test/java/example/micronaut/HealthTest.java[]
 ----
-
-<1> To run the application from a unit test you can use the http://docs.micronaut.io/snapshot/api/io/micronaut/runtime/server/EmbeddedServer.html[EmbeddedServer] interface
-<2> Register a `RxClient` bean in the application context and point it to the embedded server URL. The `EmbeddedServer` interface provides the URL of the server under test which runs on a random port.
+<1> Annotate the class with `@MicronatTest` to let Micronaut starts the embedder server and inject the beans. More info: https://micronaut-projects.github.io/micronaut-test/latest/guide/index.html[https://micronaut-projects.github.io/micronaut-test/latest/guide/index.html].
+<2> Inject the `HttpClient` bean in the application context.
 <3> Creating HTTP Requests is easy thanks to Micronaut's fluid API.
