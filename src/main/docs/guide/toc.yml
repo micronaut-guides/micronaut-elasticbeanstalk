@@ -7,3 +7,5 @@ writingTheApp:
 deploy: Deploy to Elastic Beanstalk
 nextSteps:
   title: Next Steps
+help:
+  title: Help with Micronaut  
