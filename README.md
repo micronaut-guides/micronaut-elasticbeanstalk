@@ -1,4 +1,6 @@
-# Micronaut Elastic Beanstalk
+# This guide has been deprecated and moved to https://github.com/micronaut-projects/micronaut-guides-poc. Please open any issue or pull request in that repository.
 
-This guide is available at http://guides.micronaut.io/micronaut-elasticbeanstalk/guide/index.html
+Old Guide: 
+
+https://micronaut-projects.github.io/micronaut-guides-old/micronaut-elasticbeanstalk/guide/index.html
 
